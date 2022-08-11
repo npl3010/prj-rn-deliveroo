@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
 function AppContainer() {
   return (
     <View style={styles.appContainer}>
-      <Text className="text-green-800">Hello, world!</Text>
+      <Text className='text-green-800'>Hello, world!</Text>
     </View>
   );
 }

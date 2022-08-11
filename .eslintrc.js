@@ -6,7 +6,8 @@ module.exports = {
   },
   'extends': [
     'eslint:recommended',
-    'plugin:react/recommended'
+    'plugin:react/recommended',
+    'prettier'
   ],
   'parserOptions': {
     'ecmaFeatures': {
@@ -19,22 +20,22 @@ module.exports = {
     'react'
   ],
   'rules': {
-    'indent': [
-      'error',
-      2
-    ],
-    'linebreak-style': [
-      'error',
-      'windows'
-    ],
-    'quotes': [
-      'error',
-      'single'
-    ],
-    'semi': [
-      'error',
-      'always'
-    ]
+    // 'indent': [
+    //   'error',
+    //   2
+    // ],
+    // 'linebreak-style': [
+    //   'error',
+    //   'windows'
+    // ],
+    // 'quotes': [
+    //   'error',
+    //   'single'
+    // ],
+    // 'semi': [
+    //   'error',
+    //   'always'
+    // ]
   },
   settings: {
     react: {
