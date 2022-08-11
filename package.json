@@ -36,8 +36,8 @@
   "private": true,
   "lint-staged": {
     "**/*.{js,jsx}": [
-      "eslint --ext .tsx --ext .ts src/ --fix"
+      "eslint --ext .js --ext .jsx . --fix"
     ],
-    "**/*": "prettier --write --ignore-unknown"
+    "**/*": "prettier **/* --write --ignore-unknown"
   }
 }
